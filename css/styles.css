@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url("https://use.typekit.net/dhn4agu.css");
+
+
+
+
+
+/* CONTAINER */
+
+
+
+
+
+.container {
+    width: 100%;
+    min-width: 1200px;    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 79px;
+    font-weight: 700;
+    margin: 0;    
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;    
+}
+
+h3{
+    color: rgb(187, 187, 187);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 0;    
+}
+
+h4{
+    color: rgb(90, 90, 90);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 0;    
+}
+
+h5 {
+    color: rgb(24, 207, 171);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.space_245px {
+    height: 245px;
+}
+
+.space_20px {
+    height: 20px;
+}
+
+.button_green_170x70 {
+    width: 170px;
+    height: 70px;
+    background-color: rgb(24, 207, 171);
+    border-style: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-top: 5px solid rgb(24, 207, 171);
+    
+}
+
+.button_green_170x70:hover{
+    border-top: 5px solid rgb(255, 255, 255);
+}
+
+.button_blue_170x70 {
+    width: 170px;
+    height: 70px;
+    background-color: rgb(0, 203, 246);
+    border-style: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-top: 5px solid rgb(0, 203, 246);
+}
+
+.button_blue_170x70:hover{
+    border-top: 5px solid rgb(255, 255, 255);
+}
+
+
+.button_white_193x70 {
+    width: 193.33333333px;
+    height: 70px;
+    background-color: rgb(248, 252, 254);
+    border: 1px solid rgb(235, 235, 235);
+    color:  rgb(90, 90, 90);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button_white_193x70:hover{
+    background-color: rgb(24, 207, 171);
+    cursor: pointer;
+}
+
+.button_white_30px_sides {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    color:  rgb(90, 90, 90);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.button_white_30px_sides:hover {
+    color: rgb(24, 207, 171);
+}
+
+.space_60px{
+    height: 60px;
+}
+
+.space_50px{
+    height: 50px;
+}
+
+ul {
+    width: 670px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(187, 187, 187);
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(24, 207, 171);
+}
+
+.green_line_1 {
+    width: 75px;
+    height: 2px;
+    margin-right: 10px;
+    background-color: rgb(24, 207, 171);
+}
+
+.green_line_2 {
+    width: 75px;
+    height: 2px;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: rgb(24, 207, 171);    
+}
+
+* {
+    outline: 0 !important; 
+}
+
+
+
+
+
+/* WELCOME_SECTION */
+
+
+
+
+
+.welcome_section {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.parallax {
+    background: url(../img/Sections_background/section-1\(header\).jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome_section h2::after {
+    content: " WORDPRESS THEME";
+    color: rgb(24, 207, 171);
+}
+
+.background_header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+}
+
+.header {
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}    
+
+.logo {
+    width: 197px;
+    height: 67px;
+}
+
+.choose_button_welcome {
+    margin-top: 150px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* ADVANTAGES_SECTION  */
+
+
+
+
+
+.advantages_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages_section img {
+    width: 100px;
+}
+
+.advantage_button_bright {
+    border-top: 7px solid rgb(255, 255, 255);
+    height: 370px;
+    width: 25%;
+    min-width: 290px;
+    background-color: rgb(24, 207, 171);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+.advantage_button_bright a {
+    color: rgb(255, 255, 255);
+}
+
+.advantage_button_dark {
+    border-top: 7px solid rgb(24, 207, 171);
+    height: 370px;
+    width: 25%;
+    min-width: 290px;
+    background-color: rgb(28, 42, 51);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+.advantage_button_dark a {
+    color: rgb(24, 207, 171);
+}
+
+
+
+
+
+/* SERVICES_SECTION */
+
+
+
+
+
+.services_section {
+    width: 1160px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;  
+}
+
+.choose_button_services {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose_button_services button:hover {
+    border-color: rgb(24, 207, 171);
+}
+
+.choose_button_services_triangles {
+    margin-top: -4px;    
+    width: 1160px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(24, 207, 171);
+    visibility: hidden;
+}
+
+#web_design:hover.triangle {
+    visibility: visible;
+}
+
+.button_white_193x70.regular {
+    border-left: none;
+}
+
+.service_info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#service_info_text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 0;
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
+.nav_element:hover {
+    padding-bottom: 39px;
+    border-bottom: 2px solid  rgb(24, 207, 171);
+}
+
+.nav_element_search {
+    width: 22px;
+    height: 22px;
+    display: block;
+    background: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 75px;
+    border-bottom: 2px solid rgba(24, 207, 171, 0);
+} 
+
+.nav_element_search:hover {
+    background: url(../img/search_hover.png);
+    padding-bottom: 75px;
+    border-bottom: 2px solid  rgb(24, 207, 171);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+
+
+
+
+/* PURCHASE_SECTION */
+
+
+
+
+
+.purchase_section {
+    background-color: black;
+    background-image: url(../img/Sections_background/section-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -370px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purchase_section h2 {
+    color: rgb(24, 207, 171);    
+}
+
+.purchase_section span {
+    color: rgb(255, 255, 255); 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;     
+}
+
+
+
+
+
+/* AMAZING_WORK_SECTION */
+
+
+
+
+
+#amazing_work_section {
+    background-color: rgb(248, 252, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.choose_button_filters {
+    width: 1160px;
+    display: flex;
+    justify-content: center;
+}
+.choose_button_filters button:hover {
+    border-top: 1px solid rgb(24, 207, 171);    
+}
+
+.our_works, #our_works_extended {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#our_works_extended {
+    display: none;
+}
+
+#load_more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+}
+
+#load_more h3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+
+
+
+/* BREAKING_NEWS_SECTION */
+
+
+
+
+
+.breaking_news_section {
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;  
+}
+
+.breaking_news_section img {
+    display: block;
+}
+
+.news_list{
+    display: flex;
+    width: 1160px;
+    height: 605px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news_block {
+    width: 263px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    display: block;
+}
+
+.news_block:hover .month, .news_block:hover .day {
+    color: rgb(24, 207, 171);    
+}
+
+.news_name {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 263px;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: rgb(248, 252, 254);
+    border-left: 1px solid rgb(235, 235, 235);
+    border-right: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.news_block span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;    
+}
+
+.day{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    font-size: 14px;  
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(32, 62, 56); 
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    top: 0;
+    right: 0;
+}
+
+.day span {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+/* COMMENTS_SECTION */
+
+
+
+
+
+.comments_section {
+    background-image: url(../img/Sections_background/section-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.comments_section h4 {
+    color: rgb(255, 255, 255);
+}
+
+.comments_section span {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 1160px;
+    line-height: 1.8;
+}
+
+#commentator_name {
+    color: rgb(24, 207, 171);    
+}
+
+#commentator_img_selected {
+    height: 143px;
+    width: 143px;
+    border-radius: 50%;
+    background-image: url(../img/people/human3.jpg); 
+    background-size: cover;
+    border: 3px solid rgb(24, 207, 171);
+}
+
+#commentator_3 {
+    border: 2px solid rgb(24, 207, 171);
+    transform: translateY(-20px);
+}
+.select_commentator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 480px;
+}
+
+.commentator_to_choose {
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    transition: transform 0.5s;     
+}
+
+#commentator_1 {
+    background-image: url(../img/people/human1.jpg);    
+}
+
+#commentator_2 {
+    background-image: url(../img/people/human2.jpg);    
+}
+
+#commentator_3 {
+    background-image: url(../img/people/human3.jpg);    
+}
+
+#commentator_4 {
+    background-image: url(../img/people/human4.jpg);
+
+}
+
+#commentator_right, #commentator_left {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+}
+
+#commentator_right:active, #commentator_left:active {
+    background-color: rgb(24, 207, 171);
+    border-color: rgb(24, 207, 171);;
+}
+
+.aureole {
+    border: 10px solid rgba(24, 207, 171, 0.2);
+    border-radius: 50%;
+}
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+footer {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(34, 53, 63);    
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;    
+}
+
+footer span span {
+    color: rgb(24, 207, 171);
+}
